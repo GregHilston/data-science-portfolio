@@ -37,6 +37,10 @@ This repository is to act like a high level overview of the data science project
 - Business Classifier
   - Classified business data using keras, spacy, gensim, sklearn and neural networks, saving years of projected manual labor.
 
+[comment]: # (ds_sentiment)
+- User Review Sentiment Analysis
+  - Implemented a cron polling system that processes users review's sentiment using flask and Google Cloud's Language API.
+
 ## Dashboard
 
 [comment]: # (% ds_trl_dashboard, ds_trl_cities)
