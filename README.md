@@ -1,11 +1,11 @@
 # Data Science Portfolio by Gregory Hilston
 
-This repository is to act like a high level overview of the data science projects I've worked on. Each project's `README.md` should act as a full description of the project, but I'll provide a short description here for convenience. All of these projects are in Python. Links are provided to projets whose code can be made public.
+This repository is to act like a high level overview of the data science projects I've worked on. Each project's `README.md` should act as a full description of the project, but I'll provide a short description here for convenience. All of these projects are in Python. Links are provided to projects whose code can be made public.
 
 ## Kaggle Competitions
 
 - [Talking Data Ad Tracking Fraud Detection Challenge](https://github.com/GregHilston/kaggle-talking-data-ad-tracking-fraud-detection-challenge)
-  - Classification challenge on a mobile advertisement data where fradulant clicks were the class of interest. I spent most of my time on the exploratory data analysis (EDA) and used a random forest classifier for my submission. The data set was over one hundred thirty five million rows, so I used an elastic comute cloud (ec2) instance on amazon web services (AWS) for processing.
+  - Classification challenge on a mobile advertisement data where fraudulent clicks were the class of interest. I spent most of my time on the exploratory data analysis (EDA) and used a random forest classifier for my submission. The data set was over one hundred thirty five million rows, so I used an elastic compute cloud (ec2) instance on amazon web services (AWS) for processing.
 
 ## Visualizations
 
