@@ -33,7 +33,7 @@ This repository is to act like a high level overview of the data science project
 - Synonym Generator
   - Generated synonyms programmatically using nltk, spacy, gensim and glove vectors to improve smart search capabilities.
 
-[comment]: # (ds_trl_other_businesses)
+[comment]: # (ds_trl_other_businesses_categorizer)
 - Business Classifier
   - Classified business data using keras, spacy, gensim, sklearn and neural networks, saving years of projected manual labor.
 
@@ -43,7 +43,7 @@ This repository is to act like a high level overview of the data science project
 
 ## Dashboard
 
-[comment]: # (% ds_trl_dashboard, ds_trl_cities)
+[comment]: # (% ds_trl_dashboard, ds_us_cities)
 - Data Dashboard
   - Created internal dashboard using folium and dash to generate visualizations. Allowed leadership to make data driven decisions instead of going of gut reactions.
 
@@ -58,3 +58,9 @@ This repository is to act like a high level overview of the data science project
 [comment]: # (% ds_trl_recommender)
 - Geolocation Item Based Recommender
   - Researched item and user based recommenders for review aggregate platform using pandas, sqlalchemy and turicreate. Ended up with basic model that accounted for user's geolocation when producing recommendations.
+
+## Book List
+- [Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems by Aurélien Géron](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291)
+  - Currently going through this book, while working through all exercises, challenges and code examples.
+
+[comment]: # (needed internally ds_adwords, ds_reports, ds_reporter)
