@@ -21,7 +21,7 @@ This repository is to act like a high level overview of the data science project
 - [Big Data Processing: Using Hadoop, Hive and Pig](https://drive.google.com/open?id=13CXGWy9SMo22tm938tRZvdPaIWbfcdSR)
   - A high level summary of what I learned during [Johns Hopkins' course 605.788 Big Data Processing Uisng Hadoop](https://ep.jhu.edu/programs-and-courses/605.788-big-data-processing-using-hadoop). Walks through the same example using Hadoop, Hive, Pig and Spark to allow the viewers to form their own opinions on the strengths and weaknesses of each project.
 - [General Adversarial Networks](https://drive.google.com/open?id=1IPM8F2ArYy6ZDnD970HGRfsrirDozufn)
-  - A high level summary of what General Adversarial Networks are and how they can be used. Best given to an audience with little to no data science background. Very interesting and easy to follow by someone with little to no techninal or relevant technical background.
+  - A high level summary of what General Adversarial Networks are and how they can be used. Best given to an audience with little to no data science background. Very interesting and easy to follow by someone with little to no technical or relevant technical background.
 
 ## Natural Language Processing (NLP)
 
