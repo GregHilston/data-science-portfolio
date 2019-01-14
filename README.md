@@ -1,6 +1,6 @@
 # Data Science Portfolio by Gregory Hilston
 
-This repository is to act like a high level overview of the data science projects I've worked on. Each project's `README.md` should act as a full description of the project, but I'll provide a short description here for convenience. All of these projects are in Python.
+This repository is to act like a high level overview of the data science projects I've worked on. Each project's `README.md` should act as a full description of the project, but I'll provide a short description here for convenience. All of these projects are in Python. Links are provided to projets whose code can be made public.
 
 ## Kaggle Competitions
 
@@ -22,3 +22,35 @@ This repository is to act like a high level overview of the data science project
   - A high level summary of what I learned during [Johns Hopkins' course 605.788 Big Data Processing Uisng Hadoop](https://ep.jhu.edu/programs-and-courses/605.788-big-data-processing-using-hadoop). Walks through the same example using Hadoop, Hive, Pig and Spark to allow the viewers to form their own opinions on the strengths and weaknesses of each project.
 - [General Adversarial Networks](https://drive.google.com/open?id=1IPM8F2ArYy6ZDnD970HGRfsrirDozufn)
   - A high level summary of what General Adversarial Networks are and how they can be used. Best given to an audience with little to no data science background. Very interesting and easy to follow by someone with little to no techninal or relevant technical background.
+
+## Natural Language Processing (NLP)
+
+[comment]: # (ds_advice_local_categories)
+- Inter Company Categorization Mapping
+  - Automated the mapping of data from one company's categorization to another, using gensim and glove vectors.
+
+[comment]: # (ds_synonym_generator)
+- Synonym Generator
+  - Generated synonyms programmatically using nltk, spacy, gensim and glove vectors to improve smart search capabilities.
+
+[comment]: # (ds_trl_other_businesses)
+- Business Classifier
+  - Classified business data using keras, spacy, gensim, sklearn and neural networks, saving years of projected manual labor.
+
+## Dashboard
+
+[comment]: # (% ds_trl_dashboard, ds_trl_cities)
+- Data Dashboard
+  - Created internal dashboard using folium and dash to generate visualizations. Allowed leadership to make data driven decisions instead of going of gut reactions.
+
+## Image Processing
+
+[comment]: # (% ds_google_cloud_vision)
+- Google Vision API Wrapper
+  - Developed a wrapper for Google Cloud's Vision API to filter inappropriate user submitted images, memes and determine percentage of image used by text. Written using flask and Pillow, deployed to AWS lambda using zappa.
+
+## Recommenders
+
+[comment]: # (% ds_trl_recommender)
+- Geolocation Item Based Recommender
+  - Researched item and user based recommenders for review aggregate platform using pandas, sqlalchemy and turicreate. Ended up with basic model that accounted for user's geolocation when producing recommendations.
