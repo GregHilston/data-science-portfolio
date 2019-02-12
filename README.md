@@ -16,6 +16,8 @@ This repository is to act like a high level overview of the data science project
 
 ## Presentations
 
+- [Pandas](https://github.com/GregHilston/ds_pandas_presentation)
+  - This presentation was not a lecture format, rather participants broke up into small groups and walked through a Jupyter Notebook together. The Notebook was broken up into sections, some of which were simply reading and executing lines of code to learn the basics. The last section involved twenty challenges to introduce the user with Pandas commands.  
 - [Word Embeddings](https://github.com/GregHilston/word_embeddings_presentation)
   - Discuss what word embeddings are and what they can be used to do. Combines a lecture format with an IPython Notebook that can be used independently by the viewers or part of the presentation.
 - [Big Data Processing: Using Hadoop, Hive and Pig](https://drive.google.com/open?id=13CXGWy9SMo22tm938tRZvdPaIWbfcdSR)
