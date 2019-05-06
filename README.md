@@ -17,7 +17,7 @@ This repository is to act like a high level overview of the data science project
 ## Presentations
 
 - [Pandas](https://github.com/GregHilston/ds_pandas_presentation)
-  - This presentation was not a lecture format, rather participants broke up into small groups and walked through a Jupyter Notebook together. The Notebook was broken up into sections, some of which were simply reading and executing lines of code to learn the basics. The last section involved twenty challenges to introduce the user with Pandas commands.  
+  - This presentation was not a lecture format, rather participants broke up into small groups and walked through a Jupyter Notebook together. The Notebook was broken up into sections, some of which were simply reading and executing lines of code to learn the basics. The last section involved twenty challenges to introduce the user with Pandas commands.
 - [Word Embeddings](https://github.com/GregHilston/word_embeddings_presentation)
   - Discuss what word embeddings are and what they can be used to do. Combines a lecture format with an IPython Notebook that can be used independently by the viewers or part of the presentation.
 - [Big Data Processing: Using Hadoop, Hive and Pig](https://drive.google.com/open?id=13CXGWy9SMo22tm938tRZvdPaIWbfcdSR)
@@ -60,6 +60,11 @@ This repository is to act like a high level overview of the data science project
 [comment]: # (% ds_trl_recommender)
 - Geolocation Item Based Recommender
   - Researched item and user based recommenders for review aggregate platform using pandas, sqlalchemy and turicreate. Ended up with basic model that accounted for user's geolocation when producing recommendations.
+
+## Games
+[comment]: # (% tic-tac-toe-modeling)
+- Decision Tree Based Tic Tac Toe Player
+  - Created a driver to play Tic Tac Toe and challenged an opponent who placed randomly. Used the random opponent to record what a good player, me, would do. Used this data set to train a Decision Tree Classifier, and then challenged this new model to play. The model fell back on randomness when the small data set fell short. Done using pandas and scikit learn.
 
 ## Book List
 - [Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems by Aurélien Géron](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291)
