@@ -80,7 +80,7 @@ While most, if not all, of these projects have a data munging aspect, the follow
 
 ## Games
 [comment]: # (% tic-tac-toe-modeling)
-- Decision Tree Based Tic Tac Toe Player
+- [Decision Tree Based Tic Tac Toe Player](https://github.com/GregHilston/tic-tac-toe-modeling)
   - Created a driver to play Tic Tac Toe and challenged an opponent who placed randomly. Used the random opponent to record what a good player, me, would do. Used this data set to train a Decision Tree Classifier, and then challenged this new model to play. The model fell back on randomness when the small data set fell short. Done using pandas and scikit learn.
 
 ## Book List
