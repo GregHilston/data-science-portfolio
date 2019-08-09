@@ -27,6 +27,19 @@ This repository is to act like a high level overview of the data science project
 
 ## Natural Language Processing (NLP)
 
+[comment]: # (% ds-most-important-phrases-in-corpus-api and ds-most-important-phrases-in-corpus-drone)
+- Most Important Phrases In Corpus
+  - Wrote a production ready micro service based system to find N "important" sentences that would summarize a given corpus. Used TF-IDF to discover "important" sentences and page rank to sort them. An API accepted jobs and posted them to amazon web services (AWS) simple queue system (SQS), while N drones pull down jobs, process the request and POST the results back to the requester. Was used as an opportunity to create an example project for the data science team, on using:
+    - Docker
+    - linting (prospector and mypy)
+    - Git hooks (to run linting)
+    - Continuous integration continuous deployment (CircleCi)
+    - Unit tests (pytest)
+
+[comment]: # (ds_sentiment)
+- User Review Sentiment Analysis
+  - Implemented a cron polling system that processes users review's sentiment using flask and Google Cloud's Language API.
+
 [comment]: # (ds_advice_local_categories)
 - Inter Company Categorization Mapping
   - Automated the mapping of data from one company's categorization to another, using gensim and glove vectors.
@@ -38,10 +51,6 @@ This repository is to act like a high level overview of the data science project
 [comment]: # (ds_trl_other_businesses_categorizer)
 - Business Classifier
   - Classified business data using keras, spacy, gensim, sklearn and neural networks, saving years of projected manual labor.
-
-[comment]: # (ds_sentiment)
-- User Review Sentiment Analysis
-  - Implemented a cron polling system that processes users review's sentiment using flask and Google Cloud's Language API.
 
 ## Dashboard
 
@@ -60,6 +69,14 @@ This repository is to act like a high level overview of the data science project
 [comment]: # (% ds_trl_recommender)
 - Geolocation Item Based Recommender
   - Researched item and user based recommenders for review aggregate platform using pandas, sqlalchemy and turicreate. Ended up with basic model that accounted for user's geolocation when producing recommendations.
+
+## Data Munging (Cleaning)
+
+While most, if not all, of these projects have a data munging aspect, the following were specifically exclusively data munging efforts.
+
+[comment]: # (% ds_trl_hours_regularization)
+- Hours Regularization
+  - Took previously unformatted, no front end validation, hours data and wrote a large amount of regex to parse the hours data into a structured format. Successfully parsed ~2.3 million pieces of data, saving the company time and money. The newly formatted data can now be used programmatically for many new features.
 
 ## Games
 [comment]: # (% tic-tac-toe-modeling)
