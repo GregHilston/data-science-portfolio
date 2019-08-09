@@ -76,7 +76,7 @@ While most, if not all, of these projects have a data munging aspect, the follow
 
 [comment]: # (% ds_trl_hours_regularization)
 - Hours Regularization
-  - Took previously unformatted, no front end validation, hours data and wrote a large amount of regex to parse the hours data into a structured format. Successfully parsed ~2.3 million pieces of data, saving the company time and money. The newly formatted data can now be used programmatically for many new features.
+  - Took previously unformatted, no front end validation, hours data and wrote a large amount of regex to parse the hours data into a structured format. Successfully parsed ~2.3 million pieces of data, saving the company time and money. The newly formatted data can now be used programmatically for many new features. Leveraged pandas for data processing and ray for parallelizing operations, taking execution from 1.5 hours about 15 minutes.
 
 ## Games
 [comment]: # (% tic-tac-toe-modeling)
