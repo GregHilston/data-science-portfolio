@@ -29,7 +29,7 @@ This repository is to act like a high level overview of the data science project
 
 [comment]: # (% ds-most-important-phrases-in-corpus-api and ds-most-important-phrases-in-corpus-drone)
 - Most Important Phrases In Corpus
-  - Wrote a production ready micro service based system to find N "important" sentences that would summarize a given corpus. Used TF-IDF to discover "important" sentences and page rank to sort them. An API accepted jobs and posted them to amazon web services (AWS) simple queue system (SQS), while N drones pull down jobs, process the request and POST the results back to the requester. Was used as an opportunity to create an example project for the data science team, on using:
+  - Wrote a production ready micro service based system to find N "important" sentences that would summarize a given corpus. Used TF-IDF to discover "important" sentences and page rank to sort them. An API accepted jobs and posted them to amazon web services (AWS) simple queue system (SQS), while N drones pull down jobs, process the request and POST the results back to the requester. Leveraged nltk, sklearn, numpy, flask and boto3. Was used as an opportunity to create an example project for the data science team, on using:
     - Docker
     - linting (prospector and mypy)
     - Git hooks (to run linting)
