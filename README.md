@@ -87,5 +87,6 @@ While most, if not all, of these projects have a data munging aspect, the follow
 ## Book List
 - [Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems by Aurélien Géron](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1491962291)
   - Currently going through this book, while working through all exercises, challenges and code examples.
+- [The Hundred-Page Machine Learning Book](https://www.amazon.com/Hundred-Page-Machine-Learning-Book/dp/199957950X/ref=sr_1_3?crid=2DZ7SSNDR0073&keywords=100+page+machine+learning+book&qid=1567686509&s=gateway&sprefix=100+page+m%2Caps%2C187&sr=8-3)
 
 [comment]: # (needed internally ds_adwords, ds_reports, ds_reporter)
