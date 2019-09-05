@@ -57,6 +57,7 @@ This repository is to act like a high level overview of the data science project
 [comment]: # (% ds_trl_dashboard, ds_us_cities)
 - Data Dashboard
   - Created internal dashboard using folium and dash to generate visualizations. Allowed leadership to make data driven decisions instead of going of gut reactions.
+    - An example of this would be suggesting which US cities our product could target next by accounting for population, number of businesses and other data points. Rather than just choosing by gut.
 
 ## Image Processing
 
