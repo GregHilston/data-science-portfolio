@@ -16,6 +16,10 @@ This repository is to act like a high level overview of the data science project
 
 ## Presentations
 
+- Markov Chains
+  - This presentation was a fun, interactive, way to explain what Markov Chains are and how they can be used to generate new sentences, given a corpus. The text of books, and scripts of television shows were used to demonstrate having a corpus, and sentences were generated against the entire corpus, as well as per character. Additionally, all Slack messages sent in the channels #general and #random were used to demonstrate generating sentences, for each coworker. Two small games were played:
+    1. Was this sentence actually sent by this person, or is it generated?
+    2. Given these five generated sentence, which person was this Markov Chain trained on?
 - [Pandas](https://github.com/GregHilston/ds_pandas_presentation)
   - This presentation was not a lecture format, rather participants broke up into small groups and walked through a Jupyter Notebook together. The Notebook was broken up into sections, some of which were simply reading and executing lines of code to learn the basics. The last section involved twenty challenges to introduce the user with Pandas commands.
 - [Word Embeddings](https://github.com/GregHilston/word_embeddings_presentation)
